@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <a href="index.html"><img class="RPS-logo" src="images/RPS-logo.png" alt="RPS-logo""></a>
+    
+    <div class="content">
+        <h2>Choose:<span id="choose"></span></h2>
+        <button class="rock-button" id="rock"></button>
+        <button class="paper-button" id="paper"></button>
+        <button class="scissors-button" id="scissors"></button>
+
+        <h2>User: <span id="user-choice"></span></h2>
+        <h2>Computer: <span id="computer-choice"></span></h2>
+        &nbsp;
+        <h2><span id="result"></span></h2>
+
+        <img class="user-icon" src="images/user.png" alt="user-icon">
+        <span class="user-score" id="user-score"></span>
+        <img class="computer-icon" src="images/computer.png" alt="computer-icon">
+        <span class="computer-score" id="computer-score">1</span>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
